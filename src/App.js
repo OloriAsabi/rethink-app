@@ -16,8 +16,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/rethink-app' exact element={<Home/>} />  
-        <Route path='/' element={<Service/>} />
-        <Route path='/' element={<About/>} />
+        <Route path='/rethink-app' element={<Service/>} />
+        <Route path='/rethink-app' element={<About/>} />
         <Route path='/login' element={<Login/>} />
         <Route>404 Not Found!</Route>
         </Routes>
