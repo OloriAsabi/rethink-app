@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact element={<Home/>} />  
+        <Route path='/rethink-app' exact element={<Home/>} />  
         <Route path='/' element={<Service/>} />
         <Route path='/' element={<About/>} />
         <Route path='/login' element={<Login/>} />
