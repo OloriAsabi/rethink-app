@@ -18,7 +18,7 @@ function App() {
         <Route path='/' exact element={<Home/>} />  
         <Route path='/' element={<Service/>} />
         <Route path='/' element={<About/>} />
-        <Route path='/' element={<Login/>} />
+        <Route path='/login' element={<Login/>} />
         <Route>404 Not Found!</Route>
         </Routes>
    

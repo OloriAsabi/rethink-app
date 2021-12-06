@@ -30,7 +30,7 @@ const Navbar = () => {
             </li>
             
             <li className="option mobile-option" onClick={closeMobileMenu}>
-              <Link to="/" className="sign-up">
+              <Link to="/login" className="sign-up">
                 <FiKey/> Login
               </Link>
             </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <ul>
           <li onClick={closeMobileMenu}>
-            <Link to="/" className="signup-btn">
+            <Link to="/login" className="signup-btn">
             <FiKey/> Login
             </Link>
           </li>
